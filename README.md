@@ -7,7 +7,7 @@
 
 ```git clone https://github.com/Serg1640/ventilation_for_compost.git```
 
-2. Переход в директорию Oxygen
+2. Переход в директорию ventilation_for_compost
 
 ```cd ventilation_for_compost```
 
