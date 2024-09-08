@@ -240,13 +240,13 @@ print(f'Усредненный часовой расход для удалени
 
 """Подготовка отчета по расчету"""
 
-doc = DocxTemplate('Template air consumption.docx')
-context = {'mol_formula': mol_formula, 'l': l, 'b': b, 'h': h, 'p': p, 'air_density': air_density, 'del_org': del_org,
-           'degradability': degradability, 'w': w, 'day_composting': day_composting, 't_day': t_day,
-           'koeff1': reac[mol_formula], 'koeff2': reac['O2'], 'koeff3': prod['CO2'], 'koeff4': prod['H2O'],
-           'koeff5': prod['NH3'], 'molecule_mass': molecule_mass, }
-doc.render(context)
-doc.save('Calculation.docx')
+# doc = DocxTemplate('Template air consumption.docx')
+# context = {'mol_formula': mol_formula, 'l': l, 'b': b, 'h': h, 'p': p, 'air_density': air_density, 'del_org': del_org,
+#            'degradability': degradability, 'w': w, 'day_composting': day_composting, 't_day': t_day,
+#            'koeff1': reac[mol_formula], 'koeff2': reac['O2'], 'koeff3': prod['CO2'], 'koeff4': prod['H2O'],
+#            'koeff5': prod['NH3'], 'molecule_mass': molecule_mass, }
+# doc.render(context)
+# doc.save('Calculation.docx')
 
 
 def peak_oxygen():
