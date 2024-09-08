@@ -17,11 +17,12 @@
 
 4. Активация виртуального окружения
 
-```source venv/bin/activate```
+```source venv/Scripts/activate.bat```
+Либо через ручную активацию в PyCharm
 
 5. Установка зависимостей
 
-```pip3 install -r requirements.txt```
+```pip install -r requirements.txt```
 
 
 <!--зависимости-->
